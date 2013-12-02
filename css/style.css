@@ -1,43 +1,91 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*{
+	margin: 0px;
+	padding: 0px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+h1{
+	font: bold 20px Arial;
 }
-body {
-	line-height: 1;
+h2{
+	font: bold 15px Arial;
 }
-ol, ul {
-	list-style: none;
+header, section, footer, nav, aside, article, hgroup{
+	display:block;
 }
-blockquote, q {
-	quotes: none;
+body{
+	text-align:center; /* behövs för äldre browsers för att få allt centrerat */
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+#divbody{
+	background: darkgrey;
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align:left;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+#topheader {
+	background:lightblue;
+	border-bottom: 1px solid black;
+	padding: 20px;
 }
+#sidemenu{
+	float:left;
+	width: 150px;
+	margin:5px 5px 5px 5px;
+	background-color:lightgreen;
+	border: 1px solid black;
+}
+#sidemenu li{
+	list-style:none;
+	padding: 10px;
+	font: bold 15px Arial;
+}
+#thecontent{
+	float: left;
+	width: 835px;
+	margin: 15px none;
+}
+#thefooter{
+	clear:both;
+	text-align:center;
+	padding:10px;
+	border-top: 1px solid black;
+	background: grey;
+	color: white;
+}
+article {
+	background: #EFEFEF;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 30px;
+}
+article header {
+	border-bottom: 1px solid lightblue;
+	padding: 0px 0px 7px 0px; 
+}
+article section {
+	padding: 10px 0px 0px 0px;
+}
+article footer {
+	border-top: 1px solid black;
+	padding-top: 10px;
+}
+nav a:link {
+	color: black;
+}
+nav a:visited {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
