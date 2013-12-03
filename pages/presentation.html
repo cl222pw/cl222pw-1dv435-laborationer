@@ -7,85 +7,118 @@
 	</head>
 	
 	<body>
-		<img src="../pics/logo.png" alt="Logo" width="573" height="90">
-		<h1>Presentation</h1>
-		<p><strong>Länkar</strong></p>
-		<ul>
-			<li>
-				<a href="../index.html">Start</a>
+		<div id="divbody">
+			<header id="topheader">
+				<img src="../pics/logo.png" alt="Logo" width="573" height="90">
+			</header>
+			
+			<nav id="sidemenu">
 				<ul>
-					<li><a href="../pics/logo.png">PNG Bild</a></li>
+					<li>
+						<a href="../index.html" class="menubutton">Start</a>
+					</li>
+					<li>
+						<a href="laborationer.html" class="menubutton">Laborationer</a>
+					</li>
+					<li>
+						<a href="presentation.html" class="activebutton">Presentation</a>
+					</li>
+					<li>
+					<a href="kontakt.html" class="menubutton">Kontakt</a>
+					</li>
 				</ul>
-			</li>
-			<li>
-				<a href="laborationer.html">Laborationer</a>
-			</li>
-			<li>
-				<a href="presentation.html">Presentation</a>
-				<ul>
-					<li><a href="presentation.html#bild1">JPEG Bild</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="kontakt.html">Kontakt</a>
-			</li>
-		</ul>
-		<h2>Intressen</h2>
-		<p>I veckorna spelar jag mycket datorspel med mina vänner och går gärna ut på helgerna.</p>
-		
-		<h2>Familj</h2>
-		<p>Min familj består av mina föräldrar och min hund. Jag har även en väldigt stor släkt på båda<br>
-		föräldrars sida.</p>
-		
-		<h2>Utbildning</h2>
-		<p>Jag har tidigare gått Teknik - Design och Konstruktion med ingenjörsinriktning på Gripenskolan i<br>
-		Nyköping, jag blev klar i somras.</p>
-		
-		<h2>Arbetslivserfarenhet</h2>
-		<p>Eftersom jag sökte till universitet direkt efter gymnasiet så har jag ingen tidigare<br>
-		arbetslivserfarenhet.</p>
-		<p>[det här är för att visa att jag kan dela upp texten med paragraftaggar]</p>
-		<!-- Jag har också lärt mig att göra kommentarer. -->
-		
-		<h2>Tidigare erfarenhet</h2>
-		<p>Den enda erfarenheten jag har med klientbaserad webbutveckling är mitt projektarbete i tredje<br>
-		året på gymnasiet. Jag gjorde ingen kodning men jag designade hemsidan och satt mycket brevid<br>
-		och gav instruktioner till dom som kodade.</p>
-		
-		<h2>Anledning till ansökan</h2>
-		<p>Anledningen till att jag sökte interaktionsdesign var att jag tycker det verkar kul att<br>
-		designa webbplatser och andra digitala gränssnitt medans jag samtidigt tycker det är intressant<br>
-		med att undersöka hur människor tänker och beter sig.</p>
-		<p><em>Emil Loob, 2013-11-12.</em></p>
-		
-		<a id="bild1"><img src="../pics/mam.jpg" alt="Bild1" width="413" height="502"></a>
-		<p><em>Emil Loob, 2013-11-24.</em></p>
-		
-		<h2>Listor</h2>
-		<p>Här är för att visa att jag vet hur man gör listor:</p>
-		
-		<ul>
-			<li>Olika listor
-				<ol>
-					<li>Punkter</li>
-					<li>Nummer</li>
-				</ol>
-			</li>
-			<li>Listor med olika nivåer
-				<ul>
-					<li>Så här</li>
-				</ul>
-			</li>
-		</ul>
-		<dl>
-			<dt>Definitionslistor</dt>
-			<dd>Dessa listor är bra om man man ska lista många ord med tillhörande beskrivningar</dd>
-			<dt>Punktlistor</dt>
-			<dd>Punktlistor är ett bra sätt att strukturera information. Det gör att texten blir tydlig och<br>
-			inte så tätskriven</dd>
-			<dt>Nummerlistor</dt>
-			<dd>När man vill lista någonting i en klar ordning är nummerlistor det bästa sättet att göra det.</dd>
-		</dl>
-		<p><em>Emil Loob, 2013-11-23</em></p>
+			</nav>
+			
+			<section id="thecontent">
+				<article>
+					<header>
+						<h2>Intressen</h2>
+					</header>
+					<section>
+						<p>I veckorna spelar jag mycket datorspel med mina vänner och går gärna ut på helgerna.</p>
+					</section>
+					<footer>
+					<p><em>Emil Loob, 2013-11-12.</em></p>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Familj</h2>
+					</header>
+					<section>
+						<p>Min familj består av mina föräldrar och min hund. Jag har även en väldigt stor släkt på båda<br>
+						föräldrars sida.</p>
+					</section>
+					<footer>
+					<p><em>Emil Loob, 2013-11-12.</em></p>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Utbildning</h2>
+					</header>
+					<section>
+						<p>Jag har tidigare gått Teknik - Design och Konstruktion med ingenjörsinriktning på Gripenskolan i<br>
+						Nyköping, jag blev klar i somras.</p>
+					</section>
+					<footer>
+					<p><em>Emil Loob, 2013-11-12.</em></p>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Arbetslivserfarenhet</h2>
+					</header>
+					<section>
+						<p>Eftersom jag sökte till universitet direkt efter gymnasiet så har jag ingen tidigare<br>
+						arbetslivserfarenhet.</p>
+					</section>
+					<footer>
+					<p><em>Emil Loob, 2013-11-12.</em></p>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Tidigare erfarenhet</h2>
+					</header>
+					<section>
+						<p>Den enda erfarenheten jag har med klientbaserad webbutveckling är mitt projektarbete i tredje<br>
+						året på gymnasiet. Jag gjorde ingen kodning men jag designade hemsidan och satt mycket brevid<br>
+						och gav instruktioner till dom som kodade.</p>
+					</section>
+					<footer>
+					<p><em>Emil Loob, 2013-11-12.</em></p>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<h2>Anledning till ansökan</h2>
+					</header>	
+					<section>
+						<p>Anledningen till att jag sökte interaktionsdesign var att jag tycker det verkar kul att<br>
+						designa webbplatser och andra digitala gränssnitt medans jag samtidigt tycker det är intressant<br>
+						med att undersöka hur människor tänker och beter sig.</p>
+					</section>
+					<footer>
+						<p><em>Emil Loob, 2013-11-12.</em></p>
+					</footer>
+				</article>
+				<article>
+					<header>
+					<h2>Grafiska Verktyg Uppgift 1</h2>
+					</header>
+					<section>
+						<a id="bild1"><img src="../pics/mam.jpg" alt="Bild1" width="413" height="502"></a>
+					</section>
+					<footer>
+						<p><em>Emil Loob, 2013-11-12.</em></p>
+					</footer>
+				</article
+			</section>
+			
+			<footer id="thefooter">
+				Ansvarig för denna sida är Emil Loob
+			</footer>
+		</div>
 	</body>
 </html>

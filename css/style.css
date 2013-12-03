@@ -32,11 +32,11 @@ body{
 	width: 150px;
 	margin:5px 5px 5px 5px;
 	background-color:lightgreen;
-	border: 1px solid black;
+	border: 1px solid grey;
 }
 #sidemenu li{
 	list-style:none;
-	padding: 10px;
+	padding: 0px;
 	font: bold 15px Arial;
 }
 #thecontent{
@@ -54,7 +54,7 @@ body{
 }
 article {
 	background: #EFEFEF;
-	border: 1px solid black;
+	border: 1px solid grey;
 	margin: 5px;
 	padding: 30px;
 }
@@ -68,16 +68,53 @@ article section {
 article footer {
 	border-top: 1px solid black;
 	padding-top: 10px;
+	text-align: right
 }
 nav a:link {
 	color: black;
+	text-decoration:none;
 }
 nav a:visited {
 	color: black;
+	text-decoration:none;
 }
-
-
-
+nav a:hover {
+	color: lightblue;
+	background: white;
+	text-decoration:none;
+}
+.menubutton {
+	display: block;
+	height: 40px;
+	width: 135px;
+	background: lightgreen;
+	text-align: left;
+	padding-top: 17px;
+	padding-left: 15px;
+	font: 18px arial;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: darkgrey;
+}
+.activebutton {
+	display: block;
+	height: 40px;
+	width: 135px;
+	background: #00AF5E;
+	text-align: left;
+	padding-top: 17px;
+	padding-left: 15px;
+	font: 18px arial;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: darkgrey;
+}
 
 
 
