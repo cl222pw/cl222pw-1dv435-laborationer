@@ -142,6 +142,11 @@ article header h3{
 article footer {
 	color:grey;
 }
+.hots {
+	border: 1px solid black;
+	margin: 0px 0px 10px 10px;
+
+}
 
 /* Länkknappar */
 .linkbutton {
@@ -155,6 +160,7 @@ article footer {
 	border: 1px solid black;
 	text-decoration: none;
 	list-style:none;
+	margin: 10px 0px 10px 0px;
 }
 section nav a:link {
 	color: black;
@@ -185,10 +191,39 @@ section nav a:active {
 	background: grey;
 	color: white;
 }
-
-
-
-
+/* Tabellen */
+table, th, td {
+border: 1px solid black
+}
+table {
+	border-collapse:collapse;
+	width: 400px;
+	margin-top:10px;
+}
+thead tr td{
+	padding:7px;
+	text-align:left;
+	height:20px;
+	vertical-align:top;
+	color:black;
+	background-color:#0095C7;
+}
+tfoot tr td {
+	padding:7px;
+	text-align:left;
+	height:20px;
+	vertical-align:top;
+	color:black;
+	background-color:darkgrey;
+}
+tbody tr td {
+	padding:5px;
+	text-align:left;
+	height:20px;
+	vertical-align:top;
+	color:black;
+	background-color:white;
+}
 
 
 
