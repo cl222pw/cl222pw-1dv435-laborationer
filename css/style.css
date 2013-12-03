@@ -1,7 +1,9 @@
+/*reset*/
 *{
 	margin: 0px;
 	padding: 0px;
 }
+/* Texter */
 h1{
 	font: bold 24px Arial;
 }
@@ -14,6 +16,7 @@ h3{
 section{
 	font: 15px Calibri;
 }
+
 header, section, footer, nav, aside, article, hgroup{
 	display:block;
 }
@@ -22,13 +25,16 @@ body{
 	background-color: white;
 }
 
+/* Sidans huvuddel, alltså allt utom body bakgrunden */
 #divbody{
 	background-color: darkgrey;
 	border: 1px solid black;
 	width: 1000px;
-	margin: 20px auto;
+	margin: 10px auto;
 	text-align:left;
 }
+
+/* Top ruta - banner */
 #topheader {
 	background-image:url('pics/banner.png');
 	width:1000px;
@@ -36,6 +42,8 @@ body{
 	background-repeat: no-repeat;
 	border-bottom: 1px solid black;
 }
+
+/* Sidomeny */
 #sidemenu{
 	float:left;
 	width: 150px;
@@ -47,39 +55,6 @@ body{
 	list-style:none;
 	padding: 0px;
 	font: bold 15px Arial;
-}
-#thecontent{
-	float: left;
-	width: 835px;
-	margin: 15px none;
-}
-#thefooter{
-	clear:both;
-	text-align:center;
-	padding:10px;
-	border-top: 1px solid black;
-	background: grey;
-	color: white;
-}
-article {
-	background-color: #EFEFEF;
-	border: 1px solid grey;
-	margin: 5px;
-	padding: 25px;
-}
-article header {
-	background-image:url('pics/smiley.png');
-	background-repeat: no-repeat;
-	border-bottom: 1px solid lightblue;
-	padding: 5px 0px 7px 0px; 
-}
-article section {
-	padding: 15px 0px 15px 0px;
-}
-article footer {
-	border-top: 1px solid black;
-	padding-top: 10px;
-	text-align: right
 }
 nav a:link {
 	color: black;
@@ -126,6 +101,49 @@ nav a:hover {
 	border-style: solid;
 	border-color: darkgrey;
 }
+/* Sidans innehåll */
+#thecontent{
+	float: left;
+	width: 835px;
+	margin: 15px none;
+}
+article {
+	background-color: #EFEFEF;
+	border: 1px solid grey;
+	margin: 5px;
+	padding: 25px;
+}
+article header {
+	background-image:url('pics/smiley.png');
+	background-repeat: no-repeat;
+	border-bottom: 1px solid lightblue;
+	padding: 5px 0px 7px 0px; 
+}
+article section {
+	padding: 15px 0px 15px 0px;
+}
+article footer {
+	border-top: 1px solid grey;
+	padding-top: 10px;
+	text-align: right
+}
+article header h1{
+	font: bold 24px Arial;
+	padding-left:35px;
+}
+article header h2{
+	font: bold 19px Arial;
+	padding-left:35px;
+}
+article header h3{
+	font: bold 17px Arial;
+	padding-left:35px;
+}
+article footer {
+	color:grey;
+}
+
+/* Länkknappar */
 .linkbutton {
 	display: block;
 	height: 25px;
@@ -157,20 +175,16 @@ section nav a:active {
 #linkbuttontext li{
 	list-style:none;
 }
-article header h1{
-	font: bold 24px Arial;
-	padding-left:35px;
-}
-article header h2{
-	font: bold 19px Arial;
-	padding-left:35px;
-}
-article header h3{
-	font: bold 17px Arial;
-	padding-left:35px;
-}
 
-
+/* Rutan längst ned på hela sidan */
+#thefooter{
+	clear:both;
+	text-align:center;
+	padding:10px;
+	border-top: 1px solid black;
+	background: grey;
+	color: white;
+}
 
 
 
