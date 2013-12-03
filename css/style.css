@@ -3,10 +3,16 @@
 	padding: 0px;
 }
 h1{
-	font: bold 20px Arial;
+	font: bold 24px Arial;
 }
 h2{
-	font: bold 15px Arial;
+	font: bold 19px Arial;
+}
+h3{
+	font: bold 17px Arial;
+}
+section{
+	font: 15px Calibri;
 }
 header, section, footer, nav, aside, article, hgroup{
 	display:block;
@@ -63,7 +69,7 @@ article header {
 	padding: 0px 0px 7px 0px; 
 }
 article section {
-	padding: 10px 0px 0px 0px;
+	padding: 15px 0px 15px 0px;
 }
 article footer {
 	border-top: 1px solid black;
@@ -91,7 +97,7 @@ nav a:hover {
 	text-align: left;
 	padding-top: 17px;
 	padding-left: 15px;
-	font: 18px arial;
+	font: 18px calibri;
 	border-top: 1px;
 	border-bottom: 1px;
 	border-right: 0px;
@@ -107,7 +113,7 @@ nav a:hover {
 	text-align: left;
 	padding-top: 17px;
 	padding-left: 15px;
-	font: 18px arial;
+	font: 20px calibri;
 	border-top: 1px;
 	border-bottom: 1px;
 	border-right: 0px;
@@ -115,7 +121,37 @@ nav a:hover {
 	border-style: solid;
 	border-color: darkgrey;
 }
-
+.linkbutton {
+	display: block;
+	height: 25px;
+	width: 110px;
+	background: #0095C7;
+	text-align: center;
+	padding-top: 8px;
+	font: 15px arial bold;
+	border: 1px solid black;
+	text-decoration: none;
+	list-style:none;
+}
+section nav a:link {
+	color: black;
+	text-decoration:none;
+}
+section nav a:visited {
+	color: w;
+	text-decoration:none;
+}
+section nav a:hover {
+	color: white;
+	background: #0095C7;
+	text-decoration:none;
+}
+section nav a:active {
+	color: black;
+}
+#linkbuttontext li{
+	list-style:none;
+}
 
 
 
