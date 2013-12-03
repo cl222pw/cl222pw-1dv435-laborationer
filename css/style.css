@@ -19,19 +19,22 @@ header, section, footer, nav, aside, article, hgroup{
 }
 body{
 	text-align:center; /* behövs för äldre browsers för att få allt centrerat */
+	background-color: white;
 }
 
 #divbody{
-	background: darkgrey;
+	background-color: darkgrey;
 	border: 1px solid black;
 	width: 1000px;
 	margin: 20px auto;
 	text-align:left;
 }
 #topheader {
-	background:lightblue;
+	background-image:url('pics/banner.png');
+	width:1000px;
+	height:120px;
+	background-repeat: no-repeat;
 	border-bottom: 1px solid black;
-	padding: 20px;
 }
 #sidemenu{
 	float:left;
@@ -59,14 +62,16 @@ body{
 	color: white;
 }
 article {
-	background: #EFEFEF;
+	background-color: #EFEFEF;
 	border: 1px solid grey;
 	margin: 5px;
-	padding: 30px;
+	padding: 25px;
 }
 article header {
+	background-image:url('pics/smiley.png');
+	background-repeat: no-repeat;
 	border-bottom: 1px solid lightblue;
-	padding: 0px 0px 7px 0px; 
+	padding: 5px 0px 7px 0px; 
 }
 article section {
 	padding: 15px 0px 15px 0px;
@@ -152,7 +157,18 @@ section nav a:active {
 #linkbuttontext li{
 	list-style:none;
 }
-
+article header h1{
+	font: bold 24px Arial;
+	padding-left:35px;
+}
+article header h2{
+	font: bold 19px Arial;
+	padding-left:35px;
+}
+article header h3{
+	font: bold 17px Arial;
+	padding-left:35px;
+}
 
 
 
