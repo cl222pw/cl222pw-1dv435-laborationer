@@ -1,0 +1,102 @@
+#sidemenu{
+	display: none
+}
+#topheader {
+	width:auto;
+	height:auto;
+	background-repeat: no-repeat;
+	border-bottom: none;
+	margin-top:20px;
+}
+#thecontent{
+	float: left;
+	width: auto;
+	margin: 15px none;
+	border:none;
+}
+article {
+	background-color: white;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+article header {
+	width:1000px;
+	background-image:none;
+	background-repeat: no-repeat;
+	border-bottom: none;
+	padding: 20px 0px 0px 0px;
+	margin-bottom: 0px;
+}
+article section {
+	
+}
+article footer {
+	margin-top: 15px;
+	border-top: 1px solid black;
+	padding-top: 10px;
+	text-align: right;
+	color:black;
+}
+article header h1{
+	font: bold 24px Arial;
+	padding-left:0px;
+}
+article header h2{
+	font: bold 19px Arial;
+	padding-left:0px;
+}
+article header h3{
+	font: bold 17px Arial;
+	padding-left:0px;
+}
+#divbody{
+	background-color: white;
+	border: none;
+	padding: 0px;
+	width: 1000px;
+	margin: 10px auto;
+	text-align:left;
+}
+#thefooter{
+	float:;
+	clear:both;
+	text-align:center;
+	padding:10px;
+	border-top: none;
+	background: white;
+	color: black;
+}
+
+.linkbutton {
+	display: none;
+}
+a:link, a:visited, a:hover  {
+	color:black;
+	font-style:none;
+	text-decoration:none;
+}
+
+
+thead tr td{
+	background-color:white;
+}
+tfoot tr td {
+	background-color:white;
+}
+tbody tr td {
+	padding:5px;
+	text-align:left;
+	height:20px;
+	vertical-align:top;
+	color:black;
+	background-color:white;
+}
+div.hide{
+	display: none;
+}
+.printonly{
+	display:block;
+	background:white;
+	font-size: 35px;
+}

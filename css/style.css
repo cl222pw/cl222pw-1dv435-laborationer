@@ -42,6 +42,9 @@ body{
 	background-repeat: no-repeat;
 	border-bottom: 1px solid black;
 }
+.printonly{
+	display: none;
+}
 
 /* Sidomeny */
 #sidemenu{
@@ -117,12 +120,14 @@ article header {
 	background-image:url('pics/smiley.png');
 	background-repeat: no-repeat;
 	border-bottom: 1px solid lightblue;
-	padding: 5px 0px 7px 0px; 
+	padding: 5px 0px 7px 0px;
+	margin-bottom: 15px;
 }
 article section {
 	padding: 15px 0px 15px 0px;
 }
 article footer {
+	margin-top: 15px;
 	border-top: 1px solid grey;
 	padding-top: 10px;
 	text-align: right
@@ -223,6 +228,3 @@ tbody tr td {
 	color:black;
 	background-color:white;
 }
-
-
-
