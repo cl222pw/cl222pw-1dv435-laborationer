@@ -1,0 +1,89 @@
+/* Reset */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, nav, aside, article, hgroup{
+	display:block;
+}
+
+/* Försäkring att sidan centreras även på äldre webbläsare */
+body{
+	text-align:center;
+	background-color: white;
+}
+
+/* Huvudkroppen */
+#divbody{
+	background-color: #3E97D1;
+	border: none;
+	width: 500px;
+	margin: 10px auto;
+	text-align:left;
+	
+}
+
+/* Rubriken högst upp */
+.valuta{
+	display: block;
+	font: 30px calibri;
+	text-align: left;
+	padding: 10px;
+	color: white;
+}
+
+/* Rutan där man skriver in valutan */
+#amount {
+	width: 150px;
+	font: 15px calibri;
+	margin: 10px;
+	padding: 8px;
+	border-style: none;
+}
+
+/* Konvertera-knappen */
+.button {
+	display: inline;
+	width: 150px;
+	background: #0A67A3;
+	text-align: center;
+	padding: 6px 8px 6px 8px;
+	font: 17px calibri ;
+	border: none;
+	text-decoration: none;
+	list-style:none;
+	margin: 10px;
+	cursor: pointer;
+	color: white;
+}
+
+.button:hover {
+	background: #65A6D1;
+	color: white;
+}
+
+/* "Ansvarig för hemsidan"-rutan längst ned */
+#thefooter{
+	clear:both;
+	padding:5px;
+	border-top: none;
+	background: #0A67A3;
+	font: 13px calibri italic;
+	color: white;
+	margin-top: 30px;
+}
+
+/* Tabellen som poppar upp när man har konverterat minst en gång */
+table {
+	margin: auto;
+	width: 500px;
+	font: 16px calibri;
+}
+tr {
+	background-color: #65A6D1;
+}
+td {
+	padding-left: 5px;
+}
+
