@@ -1,27 +1,12 @@
-
-
-
-
-
-//toggle funktionen
-/*function toggle(){
-   var hide = document.querySelector(".hide"); 	//Hämtar hide och ger den namnet hide
-   if (hide.style.display =='block'){  			//om hide är display: block; så gör den om den till display: none;
-	   hide.style.display = 'none';
-	   return;
-   }
-   hide.style.display ='block'; //om ovan inte stämmer, gör den hide till display: block;
-} */
-
+//funktionen toggle
 function toggle(){
+	//om showhide har class = hide, ändra den till class = show
 	if(document.getElementById("showhide").className == "hide")
 		document.getElementById("showhide").className = "show";
-
+	//annars ändra till class = hide
 	else
 		document.getElementById("showhide").className = "hide";
 }
-
-
 
 //Ger "hidebutton" alltså knappen man trycker på för att toggla ett namn
 var hidebutton = document.querySelector("#hidebutton");
