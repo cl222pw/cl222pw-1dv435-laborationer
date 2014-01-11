@@ -24,6 +24,7 @@ body{
 	
 }
 
+/* Rubrik */
 .rubrik{
 	display: block;
 	font: 30px calibri;
@@ -32,6 +33,7 @@ body{
 	color: white;
 }
 
+/* centrerar bildspelet */
 #bildspel {
 	display: block;
 	margin: 0px auto;
