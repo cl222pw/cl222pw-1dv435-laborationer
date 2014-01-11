@@ -1,0 +1,49 @@
+/* Reset */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, nav, aside, article, hgroup{
+	display:block;
+}
+
+/* Försäkring att sidan centreras även på äldre webbläsare */
+body{
+	text-align:center;
+	background-color: white;
+}
+
+/* Huvudkroppen */
+#divbody{
+	background-color: #3E97D1;
+	border: none;
+	width: 1050px;
+	margin: 10px auto;
+	text-align:left;
+	
+}
+
+.rubrik{
+	display: block;
+	font: 30px calibri;
+	text-align: left;
+	padding: 25px;
+	color: white;
+}
+
+#bildspel {
+	display: block;
+	margin: 0px auto;
+}
+
+/* "Ansvarig för hemsidan"-rutan längst ned */
+#thefooter{
+	clear:both;
+	padding:5px;
+	border-top: none;
+	background: #0A67A3;
+	font: 13px calibri italic;
+	color: white;
+	margin-top: 30px;
+}
